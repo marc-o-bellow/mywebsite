@@ -6,7 +6,11 @@ body {
     justify-content: center; 
     align-items: center; 
     height: 100vh;
-    margin: 0;
+    margin: 0px;
+}
+
+p {
+    font-size: 14px;
 }
 
 .highlight {
@@ -27,7 +31,8 @@ body {
 }
 
 .column {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .ascii  {
     font-size: 12px; 
@@ -35,7 +40,7 @@ body {
 /* for mobile */
 @media (max-width: 768px) {
     body {
-        height:450px;
+        height:460px;
     }
 
     p {
