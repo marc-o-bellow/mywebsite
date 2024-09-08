@@ -40,7 +40,7 @@ p {
 /* for mobile */
 @media (max-width: 768px) {
     body {
-        height:460px;
+        height:470px;
     }
 
     p {
