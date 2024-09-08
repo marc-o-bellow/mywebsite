@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neofetch Style Site</title>
+    <style>
+        body {
+            background-color: #222; /* Dark background like terminal */
+            color: #fff; /* White text */
+            font-family: monospace; /* Monospace font for terminal aesthetic */
+            display: flex; /* Use flexbox for two columns */
+            justify-content: center; /* Center columns */
+            align-items: center; /* Align items vertically */
+            height: 100vh; /* Full viewport height */
+            margin: 0; /* Remove default margin */
+        }
+        .container {
+            display: flex; /* Flex for two columns */
+            border: 1px solid #555; /* Border for the container */
+            border-radius: 10px; /* Round corners */
+            overflow: hidden; /* Hide overflow */
+        }
+        .column {
+            padding: 20px; /* Add padding */
+            border-right: 1px solid #555; /* Divider between columns */
+        }
+        .column:last-child {
+            border-right: none; /* Remove border from the last column */
+        }
+        h1, h2, p {
+            margin: 0; /* Reset margin */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column" style="background-color: #333;">
+            <h1>OS: Ubuntu 20.04</h1>
+            <h2>Kernel: 5.4.0-42-generic</h2>
+            <p>Uptime: 5 hours, 30 minutes</p>
+            <p>Packages: 2030</p>
+            <p>Shell: bash</p>
+        </div>
+        <div class="column" style="background-color: #444;">
+            <h1>System</h1>
+            <p>CPU: Intel Core i7</p>
+            <p>RAM: 16GB</p>
+            <p>Disk: 512GB SSD</p>
+            <p>GPU: NVIDIA GTX 1650</p>
+        </div>
+    </div>
+</body>
+</html>

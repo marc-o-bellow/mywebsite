@@ -1,0 +1,29 @@
+body {
+    background-color: #222; 
+    color: #fff; 
+    font-family: monospace; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+}
+
+.highlight {
+    color: #F2802E;
+}
+.container {
+    display: flex; 
+    /* border: 1px solid #555; 
+    border-radius: 10px; 
+    overflow: hidden; */
+}
+.blue {
+    color: #306998;
+}
+.yellow {
+    color: #FFD43B;
+}
+.column {
+    padding: 20px;
+} 
