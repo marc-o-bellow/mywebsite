@@ -34,6 +34,13 @@ body {
 }
 /* for mobile */
 @media (max-width: 768px) {
+    body {
+        height:450px;
+    }
+
+    p {
+        margin: 5px;
+    }
     .container {
         flex-direction: column; 
         align-items: center;
@@ -45,7 +52,11 @@ body {
     }
 
     pre {
-        font-size: 1px; 
-        white-space: pre-wrap;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 9px; 
+        justify-content: center;
+        /* white-space: pre-wrap; */
     }
 }
